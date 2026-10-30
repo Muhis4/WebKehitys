@@ -1,0 +1,55 @@
+
+.company{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.mainImage{
+    display: block;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    font-family: Cormorant Unicase;
+    background-color: #7792a8;
+    color: #263238;
+}
+
+header {
+    background-color: #394c75;
+    color: white;
+    padding: 16px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 32px;
+}
+
+main img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #263f3a;
+    color: white;
+    padding: 24px;
+    margin-top: 32px;
+}
+
